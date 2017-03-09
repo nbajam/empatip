@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E82982DD1E705007004CA094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82982DC1E705007004CA094 /* AppDelegate.swift */; };
+		E82982DF1E705007004CA094 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82982DE1E705007004CA094 /* ViewController.swift */; };
+		E82982E21E705007004CA094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82982E01E705007004CA094 /* Main.storyboard */; };
+		E82982E41E705007004CA094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82982E31E705007004CA094 /* Assets.xcassets */; };
+		E82982E71E705007004CA094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82982E51E705007004CA094 /* LaunchScreen.storyboard */; };
+		E82982F21E705007004CA094 /* empatipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82982F11E705007004CA094 /* empatipTests.swift */; };
+		E82982FD1E705007004CA094 /* empatipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82982FC1E705007004CA094 /* empatipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E82982EE1E705007004CA094 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E82982D11E705007004CA094 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E82982D81E705007004CA094;
+			remoteInfo = empatip;
+		};
+		E82982F91E705007004CA094 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E82982D11E705007004CA094 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E82982D81E705007004CA094;
+			remoteInfo = empatip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E82982D91E705007004CA094 /* empatip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = empatip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82982DC1E705007004CA094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E82982DE1E705007004CA094 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E82982E11E705007004CA094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E82982E31E705007004CA094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E82982E61E705007004CA094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E82982E81E705007004CA094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E82982ED1E705007004CA094 /* empatipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = empatipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82982F11E705007004CA094 /* empatipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = empatipTests.swift; sourceTree = "<group>"; };
+		E82982F31E705007004CA094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E82982F81E705007004CA094 /* empatipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = empatipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82982FC1E705007004CA094 /* empatipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = empatipUITests.swift; sourceTree = "<group>"; };
+		E82982FE1E705007004CA094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E82982D61E705007004CA094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E82982EA1E705007004CA094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E82982F51E705007004CA094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E82982D01E705007004CA094 = {
+			isa = PBXGroup;
+			children = (
+				E82982DB1E705007004CA094 /* empatip */,
+				E82982F01E705007004CA094 /* empatipTests */,
+				E82982FB1E705007004CA094 /* empatipUITests */,
+				E82982DA1E705007004CA094 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E82982DA1E705007004CA094 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E82982D91E705007004CA094 /* empatip.app */,
+				E82982ED1E705007004CA094 /* empatipTests.xctest */,
+				E82982F81E705007004CA094 /* empatipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E82982DB1E705007004CA094 /* empatip */ = {
+			isa = PBXGroup;
+			children = (
+				E82982DC1E705007004CA094 /* AppDelegate.swift */,
+				E82982DE1E705007004CA094 /* ViewController.swift */,
+				E82982E01E705007004CA094 /* Main.storyboard */,
+				E82982E31E705007004CA094 /* Assets.xcassets */,
+				E82982E51E705007004CA094 /* LaunchScreen.storyboard */,
+				E82982E81E705007004CA094 /* Info.plist */,
+			);
+			path = empatip;
+			sourceTree = "<group>";
+		};
+		E82982F01E705007004CA094 /* empatipTests */ = {
+			isa = PBXGroup;
+			children = (
+				E82982F11E705007004CA094 /* empatipTests.swift */,
+				E82982F31E705007004CA094 /* Info.plist */,
+			);
+			path = empatipTests;
+			sourceTree = "<group>";
+		};
+		E82982FB1E705007004CA094 /* empatipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E82982FC1E705007004CA094 /* empatipUITests.swift */,
+				E82982FE1E705007004CA094 /* Info.plist */,
+			);
+			path = empatipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E82982D81E705007004CA094 /* empatip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E82983011E705007004CA094 /* Build configuration list for PBXNativeTarget "empatip" */;
+			buildPhases = (
+				E82982D51E705007004CA094 /* Sources */,
+				E82982D61E705007004CA094 /* Frameworks */,
+				E82982D71E705007004CA094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = empatip;
+			productName = empatip;
+			productReference = E82982D91E705007004CA094 /* empatip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E82982EC1E705007004CA094 /* empatipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E82983041E705007004CA094 /* Build configuration list for PBXNativeTarget "empatipTests" */;
+			buildPhases = (
+				E82982E91E705007004CA094 /* Sources */,
+				E82982EA1E705007004CA094 /* Frameworks */,
+				E82982EB1E705007004CA094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E82982EF1E705007004CA094 /* PBXTargetDependency */,
+			);
+			name = empatipTests;
+			productName = empatipTests;
+			productReference = E82982ED1E705007004CA094 /* empatipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E82982F71E705007004CA094 /* empatipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E82983071E705007004CA094 /* Build configuration list for PBXNativeTarget "empatipUITests" */;
+			buildPhases = (
+				E82982F41E705007004CA094 /* Sources */,
+				E82982F51E705007004CA094 /* Frameworks */,
+				E82982F61E705007004CA094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E82982FA1E705007004CA094 /* PBXTargetDependency */,
+			);
+			name = empatipUITests;
+			productName = empatipUITests;
+			productReference = E82982F81E705007004CA094 /* empatipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E82982D11E705007004CA094 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nageshwar Bajamahal";
+				TargetAttributes = {
+					E82982D81E705007004CA094 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+					E82982EC1E705007004CA094 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LW2JTV4H2G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E82982D81E705007004CA094;
+					};
+					E82982F71E705007004CA094 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LW2JTV4H2G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E82982D81E705007004CA094;
+					};
+				};
+			};
+			buildConfigurationList = E82982D41E705007004CA094 /* Build configuration list for PBXProject "empatip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E82982D01E705007004CA094;
+			productRefGroup = E82982DA1E705007004CA094 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E82982D81E705007004CA094 /* empatip */,
+				E82982EC1E705007004CA094 /* empatipTests */,
+				E82982F71E705007004CA094 /* empatipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E82982D71E705007004CA094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82982E71E705007004CA094 /* LaunchScreen.storyboard in Resources */,
+				E82982E41E705007004CA094 /* Assets.xcassets in Resources */,
+				E82982E21E705007004CA094 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E82982EB1E705007004CA094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E82982F61E705007004CA094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E82982D51E705007004CA094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82982DF1E705007004CA094 /* ViewController.swift in Sources */,
+				E82982DD1E705007004CA094 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E82982E91E705007004CA094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82982F21E705007004CA094 /* empatipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E82982F41E705007004CA094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82982FD1E705007004CA094 /* empatipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E82982EF1E705007004CA094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E82982D81E705007004CA094 /* empatip */;
+			targetProxy = E82982EE1E705007004CA094 /* PBXContainerItemProxy */;
+		};
+		E82982FA1E705007004CA094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E82982D81E705007004CA094 /* empatip */;
+			targetProxy = E82982F91E705007004CA094 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E82982E01E705007004CA094 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E82982E11E705007004CA094 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E82982E51E705007004CA094 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E82982E61E705007004CA094 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E82982FF1E705007004CA094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E82983001E705007004CA094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E82983021E705007004CA094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = empatip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bnr.empatip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E82983031E705007004CA094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = empatip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bnr.empatip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E82983051E705007004CA094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LW2JTV4H2G;
+				INFOPLIST_FILE = empatipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bnr.empatipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/empatip.app/empatip";
+			};
+			name = Debug;
+		};
+		E82983061E705007004CA094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LW2JTV4H2G;
+				INFOPLIST_FILE = empatipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bnr.empatipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/empatip.app/empatip";
+			};
+			name = Release;
+		};
+		E82983081E705007004CA094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LW2JTV4H2G;
+				INFOPLIST_FILE = empatipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bnr.empatipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = empatip;
+			};
+			name = Debug;
+		};
+		E82983091E705007004CA094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LW2JTV4H2G;
+				INFOPLIST_FILE = empatipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bnr.empatipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = empatip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E82982D41E705007004CA094 /* Build configuration list for PBXProject "empatip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E82982FF1E705007004CA094 /* Debug */,
+				E82983001E705007004CA094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E82983011E705007004CA094 /* Build configuration list for PBXNativeTarget "empatip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E82983021E705007004CA094 /* Debug */,
+				E82983031E705007004CA094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E82983041E705007004CA094 /* Build configuration list for PBXNativeTarget "empatipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E82983051E705007004CA094 /* Debug */,
+				E82983061E705007004CA094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E82983071E705007004CA094 /* Build configuration list for PBXNativeTarget "empatipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E82983081E705007004CA094 /* Debug */,
+				E82983091E705007004CA094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E82982D11E705007004CA094 /* Project object */;
+}
