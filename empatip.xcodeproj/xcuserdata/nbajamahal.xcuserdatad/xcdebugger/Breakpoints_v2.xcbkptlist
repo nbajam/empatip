@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "empatip/ViewController.swift"
-            timestampString = "510817697.991352"
+            timestampString = "510823381.997637"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "calculateTip(_:)"
             landmarkType = "7">
          </BreakpointContent>

@@ -35,9 +35,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func onTap(_ sender: AnyObject) {
+    @IBAction func onTAP(_ sender: AnyObject) {
+        print("onTAP hello")
         view.endEditing(true)
     }
+    
 
     @IBAction func calculateTip(_ sender: AnyObject) {
         
@@ -69,16 +71,16 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        tipControl.selectedSegmentIndex =
-            defaults.integer(forKey: "defaultTipPercent");
+        //tipControl.selectedSegmentIndex =
+        //    defaults.integer(forKey: "defaultTipPercent");
         //print("calc view will appear %d",
         //      defaults.integer(forKey: "defaultTipPercent"))
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        tipControl.selectedSegmentIndex =
-            defaults.integer(forKey: "defaultTipPercent");
+        //tipControl.selectedSegmentIndex =
+        //    defaults.integer(forKey: "defaultTipPercent");
 
         //print("calc view did appear %d",
         //      defaults.integer(forKey: "defaultTipPercent"))

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E819D50E1E71FCA10044DB9C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E819D50D1E71FCA10044DB9C /* SettingsViewController.swift */; };
+		E819D5101E731CD00044DB9C /* README in Resources */ = {isa = PBXBuildFile; fileRef = E819D50F1E731CD00044DB9C /* README */; };
 		E82982DD1E705007004CA094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82982DC1E705007004CA094 /* AppDelegate.swift */; };
 		E82982DF1E705007004CA094 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82982DE1E705007004CA094 /* ViewController.swift */; };
 		E82982E21E705007004CA094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82982E01E705007004CA094 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		E819D50D1E71FCA10044DB9C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
+		E819D50F1E731CD00044DB9C /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		E82982D91E705007004CA094 /* empatip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = empatip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82982DC1E705007004CA094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E82982DE1E705007004CA094 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				E819D50D1E71FCA10044DB9C /* SettingsViewController.swift */,
 				E82982DC1E705007004CA094 /* AppDelegate.swift */,
+				E819D50F1E731CD00044DB9C /* README */,
 				E82982DE1E705007004CA094 /* ViewController.swift */,
 				E82982E01E705007004CA094 /* Main.storyboard */,
 				E82982E31E705007004CA094 /* Assets.xcassets */,
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E819D5101E731CD00044DB9C /* README in Resources */,
 				E82982E71E705007004CA094 /* LaunchScreen.storyboard in Resources */,
 				E82982E41E705007004CA094 /* Assets.xcassets in Resources */,
 				E82982E21E705007004CA094 /* Main.storyboard in Resources */,
