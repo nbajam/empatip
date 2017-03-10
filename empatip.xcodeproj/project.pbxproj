@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E819D50E1E71FCA10044DB9C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E819D50D1E71FCA10044DB9C /* SettingsViewController.swift */; };
 		E82982DD1E705007004CA094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82982DC1E705007004CA094 /* AppDelegate.swift */; };
 		E82982DF1E705007004CA094 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82982DE1E705007004CA094 /* ViewController.swift */; };
 		E82982E21E705007004CA094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82982E01E705007004CA094 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E819D50D1E71FCA10044DB9C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 		E82982D91E705007004CA094 /* empatip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = empatip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82982DC1E705007004CA094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E82982DE1E705007004CA094 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		E82982DB1E705007004CA094 /* empatip */ = {
 			isa = PBXGroup;
 			children = (
+				E819D50D1E71FCA10044DB9C /* SettingsViewController.swift */,
 				E82982DC1E705007004CA094 /* AppDelegate.swift */,
 				E82982DE1E705007004CA094 /* ViewController.swift */,
 				E82982E01E705007004CA094 /* Main.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				E82982DF1E705007004CA094 /* ViewController.swift in Sources */,
 				E82982DD1E705007004CA094 /* AppDelegate.swift in Sources */,
+				E819D50E1E71FCA10044DB9C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +519,7 @@
 				E82983031E705007004CA094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E82983041E705007004CA094 /* Build configuration list for PBXNativeTarget "empatipTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				E82983061E705007004CA094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E82983071E705007004CA094 /* Build configuration list for PBXNativeTarget "empatipUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +537,7 @@
 				E82983091E705007004CA094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

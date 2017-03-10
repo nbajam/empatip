@@ -57,16 +57,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" id="18K-WE-O7G">
-                                <rect key="frame" x="130" y="93" width="185" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                                <connections>
-                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="orF-cn-MoJ"/>
-                                </connections>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fzy-gy-GY6">
                                 <rect key="frame" x="218" y="214" width="71" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -135,6 +125,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" id="18K-WE-O7G">
+                                <rect key="frame" x="104" y="97" width="185" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="orF-cn-MoJ"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
@@ -142,7 +142,13 @@
                             <outletCollection property="gestureRecognizers" destination="KTG-Kz-46X" appends="YES" id="1cz-m8-Inu"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Tip Calculator" id="hJV-sh-Zmg"/>
+                    <navigationItem key="navigationItem" title="Tip Calculator" id="hJV-sh-Zmg">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="Wdg-cX-p4f">
+                            <connections>
+                                <segue destination="aOn-rH-Yyj" kind="push" id="ZY8-aM-t2s"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="billField" destination="18K-WE-O7G" id="jpr-rN-bJ9"/>
                         <outlet property="roundTipLabel" destination="Hm8-ro-N5U" id="489-9r-NSK"/>
@@ -162,6 +168,52 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="626.5" y="46.5"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="z6z-rZ-ajO">
+            <objects>
+                <viewController id="aOn-rH-Yyj" customClass="SettingsViewController" customModule="empatip" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fht-tP-xB9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="CM0-mQ-yYI" userLabel="defaultTipControl">
+                                <rect key="frame" x="34" y="156" width="294" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="15%"/>
+                                    <segment title="20%"/>
+                                    <segment title="25%"/>
+                                </segments>
+                                <connections>
+                                    <action selector="onTap:" destination="aOn-rH-Yyj" eventType="touchDown" id="Ynt-7T-uK8"/>
+                                    <action selector="onTap:" destination="aOn-rH-Yyj" eventType="valueChanged" id="c5d-Ds-3rk"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Default Tip Percentage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="K8n-S9-IHR">
+                                <rect key="frame" x="93" y="100" width="176" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="9Ou-xr-ubE" appends="YES" id="Aer-Ua-l5D"/>
+                            <outletCollection property="gestureRecognizers" destination="9Ou-xr-ubE" appends="YES" id="SIZ-gb-qiE"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="fwK-jh-2xa"/>
+                    <connections>
+                        <outlet property="defaultTipControl" destination="CM0-mQ-yYI" id="e7G-wI-8NM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="86w-fi-jG7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="9Ou-xr-ubE"/>
+            </objects>
+            <point key="canvasLocation" x="1133.5" y="51.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cVn-hr-3U8">

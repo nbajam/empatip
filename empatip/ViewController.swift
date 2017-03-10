@@ -18,14 +18,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalRoundTipLabel: UILabel!
     
     @IBOutlet weak var tipRoundTotalLabel: UILabel!
-    
     @IBOutlet weak var roundTotalLabel: UILabel!
     
     @IBOutlet weak var tipControl: UISegmentedControl!
+    let defaults = UserDefaults.standard;
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        tipControl.selectedSegmentIndex =
+            defaults.integer(forKey: "defaultTipPercent");
     }
 
     override func didReceiveMemoryWarning() {
@@ -63,7 +65,35 @@ class ViewController: UIViewController {
         tipRoundTotalLabel.text = String(format: "$%.2f",roundedTotalTip);
         roundTotalLabel.text = String(format: "$%.2f",roundedTotal);
         
-        
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tipControl.selectedSegmentIndex =
+            defaults.integer(forKey: "defaultTipPercent");
+        //print("calc view will appear %d",
+        //      defaults.integer(forKey: "defaultTipPercent"))
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        tipControl.selectedSegmentIndex =
+            defaults.integer(forKey: "defaultTipPercent");
+
+        //print("calc view did appear %d",
+        //      defaults.integer(forKey: "defaultTipPercent"))
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        //print("view will disappear")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        //print("view did disappear")
+    }
+    
+    
 }
 
